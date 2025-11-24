@@ -1,24 +1,25 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "scareroll portfolio",
+    template: "%s | scareroll portfolio",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Portfolio of scareroll",
+  metadataBase: new URL(process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'),
   openGraph: {
-    title: "chronark.com",
+    title: "scareroll portfolio",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Portfolio of scareroll",
+    url: "https://scareroll.com",
+    siteName: "scareroll.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://scareroll.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "scareroll",
     card: "summary_large_image",
   },
   icons: {
