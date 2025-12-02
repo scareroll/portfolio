@@ -6,22 +6,22 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "scareroll portfolio",
-    template: "%s | scareroll portfolio",
+    default: "Scareroll Portfolio",
+    template: "%s | Scareroll Portfolio",
   },
-  description: "Portfolio of scareroll",
+  description: "Portfolio of Scareroll",
   metadataBase: new URL(process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'),
   openGraph: {
-    title: "scareroll portfolio",
+    title: "Scareroll Portfolio",
     description:
-      "Portfolio of scareroll",
+      "Portfolio of Scareroll",
     url: "https://scareroll.com",
     siteName: "scareroll.com",
     images: [
       {
         url: "https://scareroll.com/og.png",
-        width: 1920,
-        height: 1080,
+        width: 681,
+        height: 241,
       },
     ],
     locale: "en-US",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "scareroll",
+    title: "Scareroll",
     card: "summary_large_image",
   },
   icons: {

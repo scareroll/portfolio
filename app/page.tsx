@@ -3,7 +3,9 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
+  { name: "SecType", href: "https://sectype.vercel.app/" },
   { name: "Skills", href: "/skills" },
+  { name: "Designs", href: "/designs" },
   { name: "Contact", href: "/contact" },
 ];
 

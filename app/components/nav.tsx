@@ -29,10 +29,22 @@ export const Navigation: React.FC = () => {
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
 						<Link
+							href="https://sectype.vercel.app/"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							SecType
+						</Link>
+						<Link
 							href="/skills"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Skills
+						</Link>
+						<Link
+							href="/designs"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Designs
 						</Link>
 						<Link
 							href="/contact"
