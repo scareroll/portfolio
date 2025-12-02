@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     title: "Scareroll Portfolio",
     description:
       "Portfolio of Scareroll",
-    url: "https://scareroll.com",
-    siteName: "scareroll.com",
+    url: "https://scareroll.vercel.app",
+    siteName: "scareroll.vercel.app",
     images: [
       {
-        url: "https://scareroll.com/og.png",
+        url: "https://scareroll.vercel.app/og.png",
         width: 681,
         height: 241,
       },
