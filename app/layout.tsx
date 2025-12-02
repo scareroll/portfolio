@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://scareroll.vercel.app/og.png",
-        width: 1920,
-        height: 1080,
+        width: 681,
+        height: 241,
       },
     ],
     locale: "en-US",
