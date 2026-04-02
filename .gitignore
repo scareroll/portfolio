@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.contentlayer/
+.next/
 
 # testing
 /coverage
